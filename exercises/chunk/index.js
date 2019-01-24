@@ -8,6 +8,20 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
-function chunk(array, size) {}
+// RECURSION 
+// function chunk(array, size, result = []) {
+//   result.push(array.slice(0, size))
+//   let rest = array.slice(size)
+//   if (rest.length > 0) chunk(rest, size, result)
+//   return result
+// }
+
+// ITERATION
+function chunk(array, size, result = []) {
+  while (array.length > 0) {
+     
+  }
+
+}
 
 module.exports = chunk;
